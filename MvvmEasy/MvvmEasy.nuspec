@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  
+  <metadata>
+    <id>MvvmEasy</id>
+    <title>MvvmEasy</title>
+    <description>An easy MVVM framework to use in your WPF applications.</description>
+    <version>1.0.0</version>
+    <authors>Gabriel Moresco</authors>
+    <copyright>Copyright © 2021 Gabriel Moresco.</copyright>
+    
+    <projectUrl>https://github.com/gabriel-moresco/mvvm-easy</projectUrl>
+    <repository type="git" url="https://github.com/gabriel-moresco/mvvm-easy"/>
+    
+    <icon>docs/icon.png</icon>
+    <readme>docs/README.md</readme>
+    <license type="file">docs/LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    
+    <tags>mvvm wpf mvvm-framework dialog-manager</tags>
+    
+  </metadata>
+  
+  <files>
+    <file src="..\README.md" target="docs\"/>
+    <file src="..\LICENSE.txt" target="docs\"/>
+    <file src="..\docs\icon.png" target="docs\"/>
+  </files>
+  
+</package>

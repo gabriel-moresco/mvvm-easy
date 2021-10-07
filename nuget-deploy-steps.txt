@@ -1,2 +1,4 @@
-nuget pack -properties Configuration=Release
-nuget push MvvmEasy.<version>.nupkg <api-key> -Source https://api.nuget.org/v3/index.json
+Build application in Release Mode
+$VERSION = (Get-Item bin\Release\MvvmEasy.dll).VersionInfo.ProductVersion
+nuget pack -properties Configuration=Release -version $VERSION
+nuget push MvvmEasy.$VERSION.nupkg <api-key> -Source https://api.nuget.org/v3/index.json
